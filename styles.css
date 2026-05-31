@@ -1,0 +1,284 @@
+/* QuantumForge Semiconductor Modeling, LLC website styles
+   Simple, static, responsive, no frameworks. Edit colors/text here. */
+
+:root {
+  --navy: #030816;
+  --navy-2: #071126;
+  --blue: #2563eb;
+  --blue-2: #4f8cff;
+  --ink: #0f172a;
+  --muted: #475569;
+  --line: #dbe3ef;
+  --panel: #ffffff;
+  --max-width: 1100px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--ink);
+  background: #f5f7fb;
+  line-height: 1.6;
+}
+
+a { color: #174ea6; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-header {
+  background: var(--navy);
+  color: white;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+
+.header-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: white;
+}
+
+.logo-mark {
+  width: 42px;
+  height: 42px;
+  border: 4px solid white;
+  border-right-color: var(--blue-2);
+  border-bottom-color: var(--blue-2);
+  border-radius: 50%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.logo-mark::after {
+  content: "";
+  width: 16px;
+  height: 4px;
+  background: white;
+  position: absolute;
+  right: -11px;
+  bottom: 3px;
+  transform: rotate(45deg);
+  border-radius: 2px;
+}
+
+.brand-name {
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+.brand-subtitle {
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 18px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.nav a { color: white; opacity: 0.92; }
+.nav a:hover { opacity: 1; }
+
+.hero, .page-hero {
+  color: white;
+  background:
+    linear-gradient(rgba(3,8,22,0.45), rgba(3,8,22,0.60)),
+    url("assets/quantumforge-background.png") center center / cover no-repeat;
+}
+
+.hero-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  min-height: 430px;
+  padding: 72px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0 0 16px;
+  font-size: clamp(2.2rem, 5vw, 4.2rem);
+  line-height: 1.05;
+}
+
+.hero .lead {
+  margin: 0 auto 22px;
+  max-width: 720px;
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+}
+
+.button {
+  display: inline-block;
+  background: var(--blue);
+  color: white;
+  padding: 13px 22px;
+  border-radius: 5px;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+}
+.button:hover { background: #1d4ed8; text-decoration: none; }
+
+.page-hero-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 54px 24px;
+}
+
+.page-hero h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+main { background: white; }
+
+.section {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 56px 24px;
+}
+
+.section-narrow { max-width: 850px; }
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 24px;
+  background: var(--panel);
+  box-shadow: 0 8px 24px rgba(15,23,42,0.05);
+}
+
+.card h2, .card h3 { margin-top: 0; }
+.icon {
+  font-size: 2.2rem;
+  color: var(--blue);
+  margin-bottom: 10px;
+}
+
+.service-list, .publication-list {
+  display: grid;
+  gap: 22px;
+}
+
+.service-item, .publication-item {
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  gap: 18px;
+  align-items: start;
+}
+
+.service-item h2, .publication-item h2 {
+  margin: 0 0 5px;
+  color: #0b4db3;
+  font-size: 1.15rem;
+}
+
+.badge-icon {
+  width: 44px;
+  height: 44px;
+  border: 2px solid var(--blue);
+  color: var(--blue);
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 44px;
+}
+
+ul.clean { padding-left: 1.2rem; }
+ul.clean li { margin: 7px 0; }
+
+.contact-details p { margin: 14px 0; }
+
+.form label {
+  display: block;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.form input, .form textarea {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  padding: 11px 12px;
+  margin-bottom: 16px;
+  font: inherit;
+}
+
+.form textarea { min-height: 145px; resize: vertical; }
+.form small { color: var(--muted); display: block; margin-top: 10px; }
+.honeypot { display: none; }
+
+.thank-you {
+  text-align: center;
+  padding: 80px 24px;
+}
+.checkmark {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 25px;
+  border: 6px solid var(--blue);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 3rem;
+  color: var(--blue);
+}
+
+.site-footer {
+  background: var(--navy);
+  color: white;
+  text-align: center;
+  padding: 24px;
+  font-size: 0.9rem;
+}
+
+.site-footer a { color: white; }
+
+@media (max-width: 760px) {
+  .header-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .nav {
+    justify-content: flex-start;
+    gap: 12px 16px;
+  }
+  .grid-3, .two-column { grid-template-columns: 1fr; }
+  .service-item, .publication-item { grid-template-columns: 1fr; }
+  .hero-inner { min-height: 360px; padding: 54px 20px; }
+}
