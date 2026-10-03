@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://quantumforgesemi.com/sitemap.xml

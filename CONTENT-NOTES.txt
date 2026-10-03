@@ -1,0 +1,34 @@
+CONTENT BASIS AND EDITORIAL CHOICES — October 3, 2026
+
+Reviewed sources
+https://quantumforgesemi.com/
+https://quantumforgesemi.com/services.html
+https://quantumforgesemi.com/about.html
+https://quantumforgesemi.com/publications.html
+https://quantumforgesemi.com/contact.html
+https://yoder.ece.gatech.edu/
+https://yoder.ece.gatech.edu/cv.html
+Headshot: https://yoder.ece.gatech.edu/images/yoder_headshot.jpg
+
+Contact email comes from the existing QuantumForge contact page.
+Degrees, appointments, IEEE status, and conference leadership come from the
+academic CV page. Research areas and publication entries come from the
+reviewed academic and QuantumForge pages.
+
+The expert witness page describes services being offered. It does not claim
+prior testimony, courtroom qualification, litigation results, or named clients.
+Seminar topics, suggested formats, advisory services, and engagement options
+are proposed offerings based on the requested commercial positioning and
+technical background. They are not presented as a record of past engagements.
+Availability, scope, deliverables, and fees are arranged directly.
+
+The site avoids client logos, testimonials, quantified commercial outcomes,
+unsupported credentials, and claims of institutional endorsement. No consulting
+relationship with Intel or any other named client is asserted. Historical
+employers are clearly presented as professional background.
+
+Commercial intent
+Separate service pages let corporate R&D teams, training organizers, law firms,
+and technical diligence clients find the information relevant to their needs.
+The homepage emphasizes outcomes, then explains service paths and qualifications.
+The site uses direct inquiries rather than publishing a rate schedule.
