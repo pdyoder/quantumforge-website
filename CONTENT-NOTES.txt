@@ -32,3 +32,24 @@ Separate service pages let corporate R&D teams, training organizers, law firms,
 and technical diligence clients find the information relevant to their needs.
 The homepage emphasizes outcomes, then explains service paths and qualifications.
 The site uses direct inquiries rather than publishing a rate schedule.
+
+PROFESSIONAL PRESENTATION REVISION
+The homepage portrait has been removed; the original photograph is retained
+on the About page. The homepage now prioritizes services and client objectives,
+with Dr. Yoder identified by name and qualifications. Headings throughout the
+site use direct professional language in place of promotional slogans.
+The lettermark, navigation, spacing, type sizing, and service hierarchy have
+been refined. Inquiry links select the relevant service on the contact page.
+No new claims about clients, testimony history, credentials, or outcomes added.
+
+LOGO RESTORATION
+Restored the original QF lettermark: navy Q, copper F, and a fine vertical
+divider. This revision changes styles.css only; existing HTML is compatible.
+
+EXPERT WITNESS PAGE REVISION
+Added the attorney-facing CV PDF and linked it prominently. Revised the legal
+services page around technical fit, consulting support, reports and testimony,
+and independent evaluation of physical mechanisms, simulation, and measurements.
+Qualifications and research contributions are drawn from the completed CV.
+Corrected the About page Ph.D. year to 1993, as confirmed by Dr. Yoder.
+No past litigation, prior testimony, or court-qualification record is asserted.

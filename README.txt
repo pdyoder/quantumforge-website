@@ -1,4 +1,4 @@
-QUANTUMFORGE WEBSITE — REPLACEMENT PACKAGE
+QUANTUMFORGE WEBSITE — REFINED REPLACEMENT PACKAGE
 
 Installation
 1. Back up the current website files.
@@ -10,6 +10,9 @@ Installation
    index.html, services.html, about.html, publications.html, and contact.html
    URLs remain available. Three new pages are included: seminars.html,
    expert-witness.html, and advisory.html.
+IMPORTANT: Preserve the existing CNAME file on GitHub. This package does not
+replace it. Upload the extracted contents, not the ZIP or enclosing folder.
+
 5. Open https://quantumforgesemi.com/ and refresh your browser cache.
    Check navigation, the photograph, and the contact email links.
 
@@ -35,3 +38,10 @@ No form inputs are persisted by the website. Email is handled by the visitor's
 email application/provider after they choose to send.
 
 No changes have been made to your live website. This ZIP is ready for upload.
+
+LATEST UPDATE — EXPERT WITNESS PAGE
+If the latest professional site with the original QF logo is already live,
+upload expert-witness.html, styles.css, about.html, and the documents folder.
+The documents folder contains Doug-Yoder-Expert-Witness-CV.pdf. Preserve the
+folder name so the CV download links work. The full ZIP also contains all
+unchanged pages and assets for a complete replacement if preferred.
